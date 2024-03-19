@@ -11,15 +11,18 @@ Overview
 03_create_sql_database.py: Reads the sorted, cleaned CSV file, creates a connection to a SQL Server database using SQLAlchemy, checks if the table exists, and if not, creates the table and inserts the data into it.
 
 Files
+
 movies.csv: Sample movie data in CSV format.
 https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates
 
 01_clean_data.py: Python script for cleaning the data.
+
 02_convert_data_types.py: Python script for converting data types and sorting.
+
 03_create_sql_database.py: Python script for creating an SQL Server database and inserting data.
 
 #Usage
-Please make sure you have the necessary dependencies installed (Pandas, SQLAlchemy, pyodbc).
+Please ensure you have installed the necessary dependencies (Pandas, SQLAlchemy, pyodbc).
 Run 01_clean_data.py to clean the movie data.
 Run 02_convert_data_types.py to convert data types and sort the data.
 Update the SQL Server connection parameters in 03_create_sql_database.py.
