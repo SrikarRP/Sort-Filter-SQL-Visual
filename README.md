@@ -28,3 +28,4 @@ Run 02_convert_data_types.py to convert data types and sort the data.
 Update the SQL Server connection parameters in 03_create_sql_database.py.
 Run 03_create_sql_database.py to create an SQL database and insert the cleaned and sorted data.
 Feel free to explore and modify the scripts as needed for your movie data processing tasks!
+![powerbi](https://github.com/SrikarRP/Sort-Filter-SQL-Visual/assets/152237612/586faf80-c71c-4f10-849a-f8490725e036)
