@@ -8,19 +8,19 @@ Overview
 
 02_convert_data_types.py: Reads the cleaned CSV file, defines data types for each column, converts columns to specified data types, and then sorts the DataFrame by revenue in descending order. The sorted data is saved to another CSV file.
 
-03_create_sql_database.py: Reads the sorted cleaned CSV file, creates a connection to a SQL Server database using SQLAlchemy, checks if the table exists, and if not, creates the table and inserts the data into it.
+03_create_sql_database.py: Reads the sorted, cleaned CSV file, creates a connection to a SQL Server database using SQLAlchemy, checks if the table exists, and if not, creates the table and inserts the data into it.
 
-Files
+#Files
 movies.csv: Sample movie data in CSV format.
-cleaned_file.csv: Output file after cleaning the data.
-sorted_cleaned_file.csv: Output file after sorting the cleaned data.
+
 01_clean_data.py: Python script for cleaning the data.
 02_convert_data_types.py: Python script for converting data types and sorting.
-03_create_sql_database.py: Python script for creating a SQL Server database and inserting data.
-Usage
-Ensure you have the necessary dependencies installed (Pandas, SQLAlchemy, pyodbc).
+03_create_sql_database.py: Python script for creating an SQL Server database and inserting data.
+
+#Usage
+Please make sure you have the necessary dependencies installed (Pandas, SQLAlchemy, pyodbc).
 Run 01_clean_data.py to clean the movie data.
 Run 02_convert_data_types.py to convert data types and sort the data.
 Update the SQL Server connection parameters in 03_create_sql_database.py.
-Run 03_create_sql_database.py to create a SQL database and insert the cleaned and sorted data.
+Run 03_create_sql_database.py to create an SQL database and insert the cleaned and sorted data.
 Feel free to explore and modify the scripts as needed for your movie data processing tasks!
