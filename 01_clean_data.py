@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('C:/Users/s/Downloads/movies.csv')
+df = pd.read_csv('movies.csv')
 
 # Drop rows with any null values in any column
 df = df.dropna()
@@ -10,4 +10,4 @@ df = df.dropna()
 df = df.replace(0, pd.NA).dropna()
 
 # Write the cleaned DataFrame back to a CSV file
-df.to_csv('C:/Users/s/Downloads/cleaned_file.csv', index=False)
+df.to_csv('cleaned_file.csv', index=False)
