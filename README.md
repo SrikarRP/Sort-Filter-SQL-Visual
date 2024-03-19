@@ -10,7 +10,7 @@ Overview
 
 03_create_sql_database.py: Reads the sorted, cleaned CSV file, creates a connection to a SQL Server database using SQLAlchemy, checks if the table exists, and if not, creates the table and inserts the data into it.
 
-#Files
+Files
 movies.csv: Sample movie data in CSV format.
 
 01_clean_data.py: Python script for cleaning the data.
